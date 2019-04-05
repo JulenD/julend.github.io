@@ -22,7 +22,8 @@ this.addEventListener('install', event => {
       return cache.addAll([
           offlineUrl,
 	  'favicon.ico',
-	  'juego.js'
+	  'juego.js',
+	  'service-worker.js'
       ]);
     })
   );
